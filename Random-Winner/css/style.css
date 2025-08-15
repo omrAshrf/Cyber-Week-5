@@ -1,0 +1,22 @@
+#counter {
+  color: rgb(35, 154, 170);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+#btns-row{
+  margin: 25px;
+  align-items: center;
+  text-align: center;
+}
+/* #sign-form{
+  display: none;
+} */
+#members-cards{
+  display: none;
+}
+#win-btn{
+  display: none ;
+  text-align: center;
+}
