@@ -1,7 +1,7 @@
 // Set the date we're counting down to
 var now = new Date().getTime();
 // var countDownDate = new Date("Aug 17, 2025 15:37:25").getTime();
-var end_after = 600000;
+var end_after = 30000;
 var countDownDate = new Date(now + end_after).getTime();
 
 const counter = document.getElementById("counter");

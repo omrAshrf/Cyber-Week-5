@@ -28,7 +28,8 @@ if (empty($passd) || strlen($passd) < 8) {
 if (!array_filter($errors_arr)) {
 
   if (isset($_POST['submit'])) {
-    
+    // echo "<script> var signForm = document.getElementById('sign-form'); signForm.style.display = 'none'; </script>";
+
     $fname = mysqli_real_escape_string($conn, $_POST["fname"]);
     $lname = mysqli_real_escape_string($conn, $_POST["lname"]);
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
